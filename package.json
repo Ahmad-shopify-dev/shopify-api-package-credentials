@@ -1,0 +1,26 @@
+{
+  "name": "shopify-functions",
+  "version": "1.0.0",
+  "description": "1. [What Are Shopify Functions?](#what-are-shopify-functions) 2. [Prerequisites](#prerequisites) 3. [Approach 1: Using Shopify CLI (Recommended)](#approach-1-using-shopify-cli-recommended) 4. [Approach 2: Custom Node App (Manual Setup)](#approach-2-custom-node-app-manual-setup) 5. [Understanding the Function Code](#understanding-the-function-code) 6. [Testing Your Function](#testing-your-function) 7. [Troubleshooting](#troubleshooting)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^13.0.0",
+    "@shopify/shopify-app-express": "^7.0.0",
+    "@shopify/shopify-app-session-storage-memory": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

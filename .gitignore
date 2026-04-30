@@ -1,0 +1,4 @@
+shopify.app.credentials.toml
+.env.credentials
+.shopify
+node_modules
